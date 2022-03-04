@@ -1,0 +1,47 @@
+package mypackage;
+
+class Algebra
+{
+        public int add(int a, int b)
+        {
+                return a+b;
+        }
+        public int mul(int a, int b)
+        {
+                return a*b;
+        }
+}
+
+
+class TotalMaths extends Algebra
+{
+        public int sub(int a, int b)
+        {	
+                return a-b;
+        }
+        public int div(int a, int b)
+        {
+                return a/b;
+        }
+}
+	
+
+class AllSubjects extends TotalMaths
+{
+        
+}
+
+
+public class MyClass 
+{
+        public static void main(String[] args) 
+        {
+                TotalMaths tm = new TotalMaths();
+                
+                System.out.println(tm.add(5, 6));
+
+
+        }
+
+
+}

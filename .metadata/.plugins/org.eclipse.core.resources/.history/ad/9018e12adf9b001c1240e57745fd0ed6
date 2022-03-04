@@ -1,0 +1,17 @@
+package mypackage;
+
+public class Myclass 
+{
+
+	public static void main(String[] args)
+{
+	
+		System.out.println("Hello");
+	
+	var i=10;
+	
+	System.out.println("Hello");
+	
+	}
+
+}
